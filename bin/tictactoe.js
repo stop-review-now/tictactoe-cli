@@ -33,6 +33,8 @@ function main() {
     });
   }
 
+  const ui = require("../vendor/ui-render.js");
+  console.log(ui.greet() + " — welcome!");
   console.log("Welcome to tic-tac-toe! Cells are numbered 1-9.");
   turn();
 }
