@@ -17,3 +17,5 @@ tictactoe
 ```
 
 Cells are numbered 1-9. Two players alternate on the same terminal.
+
+Themes supported: classic, dots.
