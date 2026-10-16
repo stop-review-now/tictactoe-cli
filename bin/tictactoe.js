@@ -33,6 +33,8 @@ function main() {
     });
   }
 
+  const theme = require("../vendor/board-theme.min.js");
+  console.log(theme.banner().toUpperCase() + " — welcome!");
   console.log("Welcome to tic-tac-toe! Cells are numbered 1-9.");
   turn();
 }
