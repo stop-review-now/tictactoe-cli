@@ -2,6 +2,7 @@
 "use strict";
 
 const readline = require("readline");
+require("../src/renderer_ext");
 const { newBoard, winner, isDraw, move, render } = require("../src/game");
 
 function main() {
