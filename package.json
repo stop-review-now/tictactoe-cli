@@ -2,7 +2,9 @@
   "name": "tictactoe-cli",
   "version": "1.0.0",
   "description": "A tiny command-line tic-tac-toe game.",
-  "bin": { "tictactoe": "bin/tictactoe.js" },
+  "bin": {
+    "tictactoe": "bin/tictactoe.js"
+  },
   "main": "src/game.js",
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
@@ -10,5 +12,10 @@
     "test": "node test/game.test.js"
   },
   "license": "MIT",
-  "engines": { "node": ">=16" }
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  }
 }
